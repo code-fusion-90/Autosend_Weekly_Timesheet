@@ -27,7 +27,7 @@ def main():
     newSheet['E17'] = 'Support' #tue
     newSheet['E18'] = 'Support' #wed
     newSheet['E19'] = 'Support' #thur
-    newSheet['E20'] = 'CMMS Support' #fri
+    newSheet['E20'] = 'Support' #fri
     newFile.save(path_new_excel)
     currentSheet['G30'] = new_time
     theFile.save(path+filename)
